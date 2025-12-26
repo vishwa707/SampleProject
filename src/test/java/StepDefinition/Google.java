@@ -29,7 +29,7 @@ public class Google {
 	@When("^User enters a (.*) in search text box$")
 	public void user_enters_a_text_in_search_text_box(String str) throws InterruptedException {
 	    driver.findElement(By.name("q")).sendKeys(str);
-	    Thread.sleep(2000);
+	    Thread.sleep(1000);
 	}
 
 	@When("Click on search button")
