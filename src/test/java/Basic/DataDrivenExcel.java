@@ -36,7 +36,7 @@ public class DataDrivenExcel {
 		WebElement ele =  driver.findElement(By.name("q"));
 		ele.sendKeys(s.getRow(1).getCell(1).getStringCellValue());
 		
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		driver.close();
 		
 		
